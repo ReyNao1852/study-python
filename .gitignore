@@ -1,0 +1,22 @@
+# 파이썬 부산물
+__pycache__/
+*.pyc
+
+# 무거운 데이터 파일 (절대 올리지 마세요!)
+*.csv
+*.xlsx
+*.nc
+*.h5
+*.mat
+
+# OpenFOAM 결과 폴더
+/0/
+/constant/polyMesh/
+/postProcessing/
+VTK/
+
+# 동영상/이미지
+*.mp4
+*.avi
+*.png
+*.jpg
